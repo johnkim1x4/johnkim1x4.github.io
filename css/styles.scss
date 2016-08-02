@@ -210,11 +210,11 @@ section.projects {
       span {
         font-size: 0.7em;
         font-weight: 600;
-        color: $text-color;
+        color: $primary-color;
         display: inline-block;
         padding: 5px 10px;
         margin: 0 5px;
-        background: $light-gray;
+        background: $secondary-color;
         border-radius: 3px;
       }
     }
@@ -233,11 +233,11 @@ section.skills {
       span {
         font-size: 0.9em;
         font-weight: 600;
-        color: $text-color;
+        color: $primary-color;
         display: inline-block;
         padding: 5px 10px;
         margin: 0 5px;
-        background: $light-gray;
+        background: $secondary-color;
         border-radius: 3px;
         @media (max-width: 768px) {
           margin-bottom: 10px;
