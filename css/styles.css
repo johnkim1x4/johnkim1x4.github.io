@@ -1,1 +1,65 @@
-body{font-family:'Source Sans Pro',sans-serif;color:#666;font-size:18px}@media (max-width: 768px){body{font-size:16px;}}h1,h2,h3,h4,h5,h6,p{margin:0}h1,h2,h3,h4{font-family:"univia-pro",sans-serif;text-transform:uppercase;font-weight:300}p{line-height:1.5em;margin-bottom:0.4em;font-weight:400}h1.header-title{color:#fff;font-size:3.7em}h2.section-title{font-size:2em;color:#6B7F99;padding-bottom:1px;letter-spacing:1px;display:inline-block;border-bottom:6px solid #CFE2F3;margin-bottom:30px}h3.header-sub{color:#CFE2F3;letter-spacing:2px;margin-top:5px;font-size:1.15em}h4.section-subtitle{font-size:0.8em;font-weight:700;color:#6B7F99;letter-spacing:1px;margin-bottom:15px}h5{font-family:"univia-pro",sans-serif;font-weight:600}nav{padding:20px 0;margin-bottom:60px;background:rgba(234,234,234,0.9);text-align:center;font-family:"univia-pro",sans-serif;font-weight:600;font-size:0.76em;letter-spacing:1px;display:none}nav ul{list-style:none;margin:0;padding:0}nav ul li{padding:0 30px;display:inline-block}@media (max-width: 768px){nav{display:none;}}a.link{color:#6B7F99;text-decoration:none;display:inline-block;font-weight:600;line-height:1.3;border-bottom:3px solid #CFE2F3}a.link.link-sm{font-size:0.86em}a.link:hover{color:#a7b3c3}a.btn.btn-sm{font-size:0.7em;font-weight:600;display:inline-block;padding:5px 10px;border-radius:3px}a.btn.btn-white{color:#6B7F99;text-decoration:none;letter-spacing:1px;text-transform:uppercase;background:white}a.btn.btn-white:hover{background:#CFE2F3}header{background:#6fa5ba;background:-moz-linear-gradient(-45deg, #6fa5ba 0%, #6b7f99 100%);background:-webkit-linear-gradient(-45deg, #6fa5ba 0%, #6b7f99 100%);background:linear-gradient(135deg, #6fa5ba 0%, #6b7f99 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#6fa5ba', endColorstr='#6b7f99',GradientType=1 );padding:200px 0;text-align:center}header h1{text-shadow:0 5px 10px rgba(0,0,0,0.2)}header h3{text-shadow:0 3px 6px rgba(0,0,0,0.2)}@media (max-width: 768px){header{padding:100px 0;}}section{text-align:center;padding:60px 0}section p{text-align:left}section.about img{width:100%;max-width:200px;border-radius:50%;box-sizing:border-box;border:10px solid #CFE2F3;margin-bottom:10px}section.about a{margin-right:15px}@media (max-width: 991px){section.projects .project-item{margin-bottom:30px;}}section.projects .project-item:hover .project-img .project-img-links{bottom:0;transition:0.3s}section.projects .project-item .project-img{cursor:pointer;position:relative;overflow:hidden;margin-bottom:15px}section.projects .project-item .project-img img{width:100%;border-radius:5px}section.projects .project-item .project-img .project-img-links{border-radius:0 0 5px 5px;background:#6B7F99;opacity:0.9;width:100%;padding:15px 0;position:absolute;bottom:-60px;transition:0.3s}@media (max-width: 768px){section.projects .project-item .project-img .project-img-links{bottom:0;}}section.projects .project-item .project-img .project-img-links a.btn{margin:0 10px}section.projects .project-item .project-desc{font-weight:600;color:gray;display:block;margin-bottom:10px}section.projects .project-item .project-tags span{font-size:0.7em;font-weight:600;color:#6B7F99;display:inline-block;padding:5px 10px;margin:0 5px;background:#CFE2F3;border-radius:3px}section.skills .skill-group{padding-bottom:30px}section.skills .skill-group:last-of-type{padding-bottom:0}section.skills .skill-group p.skill-tags{text-align:center;margin-bottom:20px}section.skills .skill-group p.skill-tags span{font-size:0.9em;font-weight:600;color:#6B7F99;display:inline-block;padding:5px 10px;margin:0 5px;background:#CFE2F3;border-radius:3px}@media (max-width: 768px){section.skills .skill-group p.skill-tags span{margin-bottom:10px;}}section.contact h2.email{text-transform:inherit}section.contact h2.email a{display:inline-block}footer{margin-top:60px;padding:60px 0;background:#ececec}
+body { font-family: 'Source Sans Pro', sans-serif; color: #666; font-size: 18px; }
+@media (max-width: 768px) { body { font-size: 16px; } }
+
+h1, h2, h3, h4, h5, h6, p { margin: 0; }
+
+h1, h2, h3, h4 { font-family: "univia-pro", sans-serif; text-transform: uppercase; font-weight: 300; }
+
+p { line-height: 1.5em; margin-bottom: .4em; font-weight: 400; }
+
+h1.header-title { color: #fff; font-size: 3.7em; }
+
+h2.section-title { font-size: 2em; color: #6B7F99; padding-bottom: 1px; letter-spacing: 1px; display: inline-block; border-bottom: 6px solid #CFE2F3; margin-bottom: 30px; }
+
+h3.header-sub { color: #CFE2F3; letter-spacing: 2px; margin-top: 5px; font-size: 1.15em; }
+
+h4.section-subtitle { font-size: 0.8em; font-weight: 700; color: #6B7F99; letter-spacing: 1px; margin-bottom: 15px; }
+
+h5 { font-family: "univia-pro", sans-serif; font-weight: 600; }
+
+nav { padding: 20px 0; margin-bottom: 60px; background: rgba(234, 234, 234, 0.9); text-align: center; font-family: "univia-pro", sans-serif; font-weight: 600; font-size: 0.76em; letter-spacing: 1px; display: none; }
+nav ul { list-style: none; margin: 0; padding: 0; }
+nav ul li { padding: 0 30px; display: inline-block; }
+@media (max-width: 768px) { nav { display: none; } }
+
+a.link { color: #6B7F99; text-decoration: none; display: inline-block; font-weight: 600; line-height: 1.3; border-bottom: 3px solid #CFE2F3; }
+a.link.link-sm { font-size: 0.86em; }
+a.link:hover { color: #a7b3c3; }
+
+a.btn.btn-sm { font-size: 0.7em; font-weight: 600; display: inline-block; padding: 5px 10px; border-radius: 3px; }
+a.btn.btn-white { color: #6B7F99; text-decoration: none; letter-spacing: 1px; text-transform: uppercase; background: white; }
+a.btn.btn-white:hover { background: #CFE2F3; }
+
+header { /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6fa5ba+0,6b7f99+100 */ background: #6fa5ba; /* Old browsers */ background: -moz-linear-gradient(-45deg, #6fa5ba 0%, #6b7f99 100%); /* FF3.6-15 */ background: -webkit-linear-gradient(-45deg, #6fa5ba 0%, #6b7f99 100%); /* Chrome10-25,Safari5.1-6 */ background: linear-gradient(135deg, #6fa5ba 0%, #6b7f99 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6fa5ba', endColorstr='#6b7f99',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */ padding: 200px 0; text-align: center; }
+header #header-name { -webkit-animation-duration: 2s; }
+header #header-title { -webkit-animation-duration: 1s; -webkit-animation-delay: 0.8s; }
+header h1 { text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
+header h3 { text-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); }
+@media (max-width: 768px) { header { padding: 100px 0; } }
+
+section { text-align: center; padding: 60px 0; }
+section p { text-align: left; }
+
+section.about img { width: 100%; max-width: 200px; border-radius: 50%; box-sizing: border-box; border: 10px solid #CFE2F3; margin-bottom: 10px; }
+section.about a { margin-right: 15px; }
+
+@media (max-width: 991px) { section.projects .project-item { margin-bottom: 30px; } }
+section.projects .project-item:hover .project-img .project-img-links { bottom: 0; transition: 0.3s; }
+section.projects .project-item .project-img { cursor: pointer; position: relative; overflow: hidden; margin-bottom: 15px; }
+section.projects .project-item .project-img img { width: 100%; border-radius: 5px; }
+section.projects .project-item .project-img .project-img-links { border-radius: 0 0 5px 5px; background: #6B7F99; opacity: 0.9; width: 100%; padding: 15px 0; position: absolute; bottom: -60px; transition: 0.3s; }
+@media (max-width: 768px) { section.projects .project-item .project-img .project-img-links { bottom: 0; } }
+section.projects .project-item .project-img .project-img-links a.btn { margin: 0 10px; }
+section.projects .project-item .project-desc { font-weight: 600; color: gray; display: block; margin-bottom: 10px; }
+section.projects .project-item .project-tags span { font-size: 0.7em; font-weight: 600; color: #6B7F99; display: inline-block; padding: 5px 10px; margin: 0 5px; background: #CFE2F3; border-radius: 3px; }
+
+section.skills .skill-group { padding-bottom: 30px; }
+section.skills .skill-group:last-of-type { padding-bottom: 0; }
+section.skills .skill-group p.skill-tags { text-align: center; margin-bottom: 20px; }
+section.skills .skill-group p.skill-tags span { font-size: 0.9em; font-weight: 600; color: #6B7F99; display: inline-block; padding: 5px 10px; margin: 0 5px; background: #CFE2F3; border-radius: 3px; }
+@media (max-width: 768px) { section.skills .skill-group p.skill-tags span { margin-bottom: 10px; } }
+
+section.contact h2.email { text-transform: inherit; }
+section.contact h2.email a { display: inline-block; }
+
+footer { margin-top: 60px; padding: 60px 0; background: #ececec; }

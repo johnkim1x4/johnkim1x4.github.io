@@ -132,6 +132,15 @@ header {
 
   padding: 200px 0;
   text-align: center;
+  #header-name {
+    -webkit-animation-duration: 2s;
+  }
+
+  #header-title {
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 0.8s;
+  }
+
   h1 {
     text-shadow: 0 5px 10px rgba(0,0,0,0.2);
   }

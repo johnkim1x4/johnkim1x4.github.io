@@ -1,2 +1,4 @@
 .DS_STORE
 prepros.cfg
+config.codekit
+.sass-cache/
