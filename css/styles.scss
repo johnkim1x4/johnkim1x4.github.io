@@ -1,6 +1,7 @@
 $primary-color: #6B7F99;
 $secondary-color: #CFE2F3;
 $text-color: #666;
+$light-gray: #ececec;
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
@@ -209,11 +210,11 @@ section.projects {
       span {
         font-size: 0.7em;
         font-weight: 600;
-        color: $primary-color;
+        color: $text-color;
         display: inline-block;
         padding: 5px 10px;
         margin: 0 5px;
-        background: $secondary-color;
+        background: $light-gray;
         border-radius: 3px;
       }
     }
@@ -232,11 +233,11 @@ section.skills {
       span {
         font-size: 0.9em;
         font-weight: 600;
-        color: $primary-color;
+        color: $text-color;
         display: inline-block;
         padding: 5px 10px;
         margin: 0 5px;
-        background: $secondary-color;
+        background: $light-gray;
         border-radius: 3px;
         @media (max-width: 768px) {
           margin-bottom: 10px;
@@ -258,5 +259,5 @@ section.contact {
 footer {
   margin-top: 60px;
   padding: 60px 0;
-  background: #ececec;
+  background: $light-gray;
 }
