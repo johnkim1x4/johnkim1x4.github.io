@@ -31,8 +31,8 @@ a.btn.btn-white { color: #6B7F99; text-decoration: none; letter-spacing: 1px; te
 a.btn.btn-white:hover { background: #CFE2F3; }
 
 header { /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6fa5ba+0,6b7f99+100 */ background: #6fa5ba; /* Old browsers */ background: -moz-linear-gradient(-45deg, #6fa5ba 0%, #6b7f99 100%); /* FF3.6-15 */ background: -webkit-linear-gradient(-45deg, #6fa5ba 0%, #6b7f99 100%); /* Chrome10-25,Safari5.1-6 */ background: linear-gradient(135deg, #6fa5ba 0%, #6b7f99 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6fa5ba', endColorstr='#6b7f99',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */ padding: 200px 0; text-align: center; }
-header #header-name { -webkit-animation-duration: 2s; }
-header #header-title { -webkit-animation-duration: 1s; -webkit-animation-delay: 0.8s; }
+header #header-name { -webkit-animation-duration: 1.4s; }
+header #header-title { -webkit-animation-duration: 1s; -webkit-animation-delay: 0.6s; }
 header h1 { text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
 header h3 { text-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); }
 @media (max-width: 768px) { header { padding: 100px 0; } }
